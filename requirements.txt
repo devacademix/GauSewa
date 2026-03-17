@@ -1,28 +1,17 @@
-# GauSewa MVP — Requirements for Railway Deployment
-# Only what we need — no extra packages
+# GauSewa MVP — Railway Deployment
+# tensorflow-cpu latest version use karo
 
-# Web Framework
 fastapi==0.116.1
 uvicorn==0.35.0
 python-multipart==0.0.22
-
-# Database
 pymongo==4.16.0
 dnspython==2.8.0
-
-# AI / ML — CPU only for Railway (no GPU needed)
-tensorflow-cpu==2.15.0
+tensorflow-cpu
 pillow==12.1.1
 numpy==1.26.4
 opencv-python-headless==4.8.1.78
-
-# Auth
 python-jose==3.5.0
 cryptography==46.0.5
-
-# Utils
 certifi==2025.4.26
-
-# Pydantic (FastAPI dependency)
 pydantic==2.11.7
 annotated-types==0.7.0
