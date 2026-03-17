@@ -1,11 +1,19 @@
+# requirements.txt — Railway Deployment
+# Module 1 MVP — IoT packages EXCLUDED
+
 fastapi==0.104.1
 uvicorn==0.24.0
 pymongo==4.6.1
-tensorflow==2.15.0
+
+# Railway pe tensorflow-cpu use karo (GPU nahi hota server pe)
+tensorflow-cpu==2.15.0
+
 opencv-python-headless==4.8.1.78
 pillow==10.1.0
 python-jose==3.3.0
 python-multipart==0.0.6
+certifi==2024.2.2
+
 # EXCLUDED (Module 2):
 # paho-mqtt==1.6.1
 # twilio==8.10.3
